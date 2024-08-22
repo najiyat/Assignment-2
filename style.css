@@ -634,12 +634,13 @@ body {
   }
   .image-8-icon {
     height: 218px;
-    width: 323px;
+    width: 400px;
     position: absolute;
     margin: 0 !important;
     right: -57px;
     bottom: -16.5px;
     object-fit: cover;
+    
   }
   .image-8-parent,
   .lorem-ipsum {
@@ -662,21 +663,20 @@ body {
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 157px 24px 27.5px;
+    padding: 156px 20px 27.5px;
+
     box-sizing: border-box;
     color: #efefef;
+    margin-top: 20px;
     
     
 
   
   }
 
-  .image-8-parent:hover{
-       opacity: 1;
-       background-color: #ff6e57;
-  }
+ 
   .image-6-icon {
-    height: 256px;
+    height: 215px;
     width: 539px;
     position: absolute;
     margin: 0 !important;
@@ -685,9 +685,9 @@ body {
     object-fit: cover;
   }
   .second-pair {
-    height: 202px;
+    height: 215px;
     width: 520px;
-   
+   margin-top: 20px;
     padding-bottom:100px;
     overflow: hidden;
     flex-shrink: 0;
@@ -696,12 +696,13 @@ body {
     align-items: flex-start;
     justify-content: flex-start;
     padding: 25px 31px;
+    padding-bottom: 40px;
     box-sizing: border-box;
     position: relative;
     max-width: 100%;
   }
   .image-11-icon {
-    height: 214px;
+    height: 215px;
     width: 388px;
     position: absolute;
     margin: 0 !important;
@@ -725,6 +726,7 @@ body {
     position: relative;
     min-width: 188px;
     padding-bottom: 50px;
+    margin-top: 10px;
   }
   .card-pairs {
     align-self: stretch;
@@ -734,7 +736,7 @@ body {
     
   }
   .image-7-icon {
-    height: 240px;
+    height: 250px;
     width: 435px;
     position: absolute;
     margin: 0 !important;
@@ -750,7 +752,7 @@ body {
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-end;
-    padding: 25.5px 0 25px;
+    padding: 25.5px 0 2px;
     box-sizing: border-box;
     position: relative;
     min-width: 276px;
@@ -758,8 +760,7 @@ body {
     max-width: 100%;
   }
   .image-10-icon {
-    width: 408px;
-    height: 219px;
+   
     position: absolute;
     margin: 0 !important;
     bottom: -10px;
@@ -774,8 +775,9 @@ body {
     z-index: 1;
   }
   .image-10-parent {
-    width: 288px;
-    background-color: #bbb;
+    width: 360px;
+    height:220px;
+   
     overflow: hidden;
     flex-shrink: 0;
     display: flex;
@@ -787,13 +789,14 @@ body {
     position: relative;
   }
   .image-9-icon {
-    height: 250px;
+    height: 270px;
     width: 376px;
     position: absolute;
     margin: 0 !important;
     top: -24.5px;
     left: -15px;
     object-fit: cover;
+   
     
   }
   .exercise-cards,
@@ -805,8 +808,8 @@ body {
     max-width: 100%;
   }
   .image-9-parent {
-    width: 347px;
-    background-color: #fff;
+    width: 360px;
+    height:220px;
     flex-shrink: 0;
     flex-direction: row;
     padding: 142.5px 38px 25px;
@@ -815,7 +818,7 @@ body {
   }
   .exercise-cards {
     flex: 1;
-    background-color: #222;
+    background-color: ;
     flex-direction: column;
   }
   .calculator-description-wrapper,
